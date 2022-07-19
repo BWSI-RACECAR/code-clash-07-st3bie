@@ -36,7 +36,7 @@ class Solution:
 
         for char in alist:
             if (char in blist):
-                alist.remove(char)
+                blist.remove(char)
             else:
                 return False
 
